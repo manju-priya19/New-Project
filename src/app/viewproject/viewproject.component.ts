@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> d954fc91f16aba5ec5ddefd6b9bf25a2f0193152
 import { Component, OnInit } from '@angular/core';
 export interface PeriodicElement {
   Project: string;

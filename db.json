@@ -1,5 +1,6 @@
 {
   "employees": [
+<<<<<<< HEAD
     {
    
       "username": "admin",
@@ -24,6 +25,32 @@
       "email":"pqr@gmail.com",
       "password":"employee"
     }
+=======
+    { "id":"1",
+      "username":"admin",
+      "role":"admin",
+      "contactpreference":"phone",
+      "gender":"Female",
+      "email":"abc@gmail.com"
+  },
+  { 
+      "id":"2",
+      "username":"manager",
+      "role":"manager",
+      "contactpreference":"phone",
+      "gender":"Female",
+      "email":"xyz@gmail.com"
+  },
+  { 
+    "id":"3",
+    "username":"employee",
+    "role":"employee",
+    "contactpreference":"phone",
+    "gender":"Female",
+    "email":"pqr@gmail.com"
+}
+
+>>>>>>> d954fc91f16aba5ec5ddefd6b9bf25a2f0193152
 
   ]
   

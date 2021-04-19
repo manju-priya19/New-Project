@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+<<<<<<< HEAD
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
@@ -39,10 +40,30 @@ import { ManagerreportComponent } from './managerreport/managerreport.component'
 import { LoginService } from './auth/component/login/login.service';
 import { HttpClientModule } from '@angular/common/http';
 
+=======
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatCardModule} from '@angular/material/card';
+import { ProfileComponent } from './profile/profile.component';
+import { ProjectComponent } from './project/project.component';
+import { MatInputModule} from '@angular/material/input';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {  MatNativeDateModule } from '@angular/material/core';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatRadioModule} from '@angular/material/radio';
+import { FlexLayoutModule } from "@angular/flex-layout";
+import { TaskComponent } from './task/task.component';
+import { ViewprojectComponent } from './viewproject/viewproject.component';
+import {MatTableModule} from '@angular/material/table';
+import {MatGridListModule} from '@angular/material/grid-list';
+import { ReportComponent } from './report/report.component';
+>>>>>>> d954fc91f16aba5ec5ddefd6b9bf25a2f0193152
 
 @NgModule({
   declarations: [
     AppComponent,
+<<<<<<< HEAD
     ManagerComponent,
     ManagerDashboardComponent,
     ProfileComponent,
@@ -65,6 +86,29 @@ import { HttpClientModule } from '@angular/common/http';
     FormsModule,MatCardModule,MatInputModule,MatFormFieldModule,MatTableModule ,MatRadioModule,MatDatepickerModule,MatNativeDateModule,MatCheckboxModule,
     MatButtonModule,MatToolbarModule,MatIconModule,MatSidenavModule,MatListModule,BrowserAnimationsModule,
     HttpClientModule
+=======
+    DashboardComponent,
+    ProfileComponent,
+    ProjectComponent,
+    TaskComponent,
+    ViewprojectComponent,
+    ReportComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatCardModule,
+    MatInputModule,
+    MatFormFieldModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatCheckboxModule,
+    MatRadioModule,
+    FlexLayoutModule,
+    MatTableModule,
+    MatGridListModule
+>>>>>>> d954fc91f16aba5ec5ddefd6b9bf25a2f0193152
   ],
   providers: [LoginService],
   bootstrap: [AppComponent]
