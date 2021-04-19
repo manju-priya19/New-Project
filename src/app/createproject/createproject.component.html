@@ -1,0 +1,50 @@
+<div class="card1">
+    <mat-card class="cardT">
+        <mat-card-header class="head" fxLayout
+        fxLayoutAlign="center" ><b><u>New Project</u></b></mat-card-header><br>
+        <form class="form-group">
+            <mat-form-field class="example-full-width">
+                <mat-label>Project name</mat-label>
+                <input matInput>
+              </mat-form-field><br><br>
+              <mat-form-field class="example-full-width">
+                <mat-label>Description</mat-label>
+                <textarea matInput></textarea>
+              </mat-form-field><br><br>
+              <mat-form-field appearance="fill" class="date">
+                <mat-label>Enter a Project date range</mat-label>
+                <mat-date-range-input [rangePicker]="picker">
+                  <input matStartDate placeholder="Start date">
+                  <input matEndDate placeholder="End date">
+                </mat-date-range-input>
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-date-range-picker #picker></mat-date-range-picker>
+              </mat-form-field><br><br>
+              <div class="form-group2">
+              <!-- <mat-card class="c1"> -->
+                      <div class="form"> 
+                    <div class="form-group1">
+                      <div class="col-md-4">
+                         <input class="radio" type="radio" id="default-radio1" name="radio" checked>
+                         <label class="radio-label" for="default-radio1">Public</label>
+                         <p class="p1">All member can access</p>
+                      </div>
+                       <div class="col-md-4">
+                         <input class="radio" type="radio" id="default-radio2" name="radio">
+                         <label class="radio-label" for="default-radio2">Private</label>
+                         <p class="p1">only member can access</p>
+                       </div>
+                     </div>
+                    </div>
+                  <!-- </mat-card> -->
+                  </div>
+                  </form>
+                  <div class="example-button-row" style="float: right;">
+                      <button mat-button >Create Project</button>
+                      </div>
+              </mat-card>    
+              </div>
+                 
+             
+    
+  

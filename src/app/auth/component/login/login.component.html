@@ -1,0 +1,18 @@
+<div class='second'>
+    <h1>login to Continue</h1>
+    <form #f='ngForm' (ngSubmit)='onSubmit()'>
+    <div class="input-group mb-3">
+      <input type="text" name='username'  [(ngModel)]="employee.username" #username="ngModel" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"><br>
+      <span class="input-group-text" id="basic-addon1">@</span>
+</div>
+  <div class="input-group mb-3">
+    <input type="password" name='password'  [(ngModel)]="employee.password" #password="ngModel" class="form-control" placeholder="Password" aria-label="Recipient's username" aria-describedby="basic-addon2">
+    <span class="input-group-text" id="basic-addon2">aA1#</span>
+   </div>
+
+  <div class="form-group form-check">
+   <a routerLink='/resetpassword' routerLinkActive='Active'>Forgot password</a>
+   </div>
+<button type="submit" class="btn btn-primary" >Login</button>
+</form>
+</div>

@@ -1,0 +1,30 @@
+{
+  "employees": [
+    {
+   
+      "username": "admin",
+      "role": "admin",
+      "contactpreference":"Phone",
+      "email":"abc@gmail.com",
+      "password":"admin"
+    },
+    {
+     
+      "username": "manager",
+      "role": "manager",
+      "contactpreference":"Phone",
+      "email":"xyz@gmail.com",
+      "password":"manager"
+    },
+    {
+      
+      "username": "employee",
+      "role": "employee",
+      "contactpreference":"Phone",
+      "email":"pqr@gmail.com",
+      "password":"employee"
+    }
+
+  ]
+  
+}

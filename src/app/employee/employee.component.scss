@@ -1,0 +1,58 @@
+.example-spacer {
+    flex: 1 1 auto;
+   
+  }
+  .toolbar-mode{
+      background-color:white;
+      height:88px;
+      border-bottom-style:ridge;
+      
+  }
+  .search-group {
+    position: absolute;
+    top: 7%;
+    right: 300px;
+    transform: translate(0, -50%);
+    width: 340px;
+    background: black;
+    border: 1px solid black;
+    border-radius: 2px;
+    overflow: hidden;
+    .search-input {
+        width: 300px;
+        height: 40px;
+        background: transparent;
+        border: none;
+        outline: none;
+        color: white;
+        font-size: 15px;
+        text-indent: 1.5em;
+    }
+    .search-btn {
+        position: relative;
+        top: 4px;
+        right: 1px;
+        width: 30px;
+        height: 30px;
+        background: orange;
+        border: 0;
+        border-radius: 50%;
+        outline: none;
+        line-height: 30px;
+        text-align: center;
+        color: white;
+        transform: scale(0);
+        transition: all .4s;
+        &:hover {
+             background: lighten(orange, 10%);
+            
+            transform: scale(1);
+        }
+    }
+    .search-input:focus+.search-btn {
+        transform: scale(1);
+    }
+}
+.make-button{
+ padding-right: 220px;
+}
